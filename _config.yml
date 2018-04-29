@@ -20,12 +20,12 @@ title                    : "Ferdinando Santacroce"
 title_separator          : "-"
 name                     : "Ferdinando Santacroce"
 description              : "First solve the problem. Then write the code."
-url                      : https://jesuswasrasta.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://jesuswasrasta.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : jesuswasrasta/jesuswasrasta.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "jesuswasrasta/jesuswasrasta.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/teaser-fallback-500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 150
 comments:
   provider               : disqus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
@@ -80,17 +80,22 @@ facebook:
   username               : ferdinando.santacroce
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/images/ferdinando.santacroce.jpg # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/jesuswasrasta"
+    - "https://facebook.com/ferdinando.santacroce"
+    - "https://instagram.com/jesuswasrasta"
+    - "https://www.linkedin.com/in/ferdinandosantacroce"
+    - "https://plus.google.com/u/0/+FerdinandoSantacroce"
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "custom"
+  provider               : google-gtag # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : UA-2145651-5
 
@@ -103,7 +108,7 @@ author:
   location         : "Italy"
   email            : "ferdinando.santacroce@gmail.com"
   uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
+  home             : "/about/"" # null (default), "absolute or relative url to link to author home"
   bitbucket        : "fsantacroce"
   codepen          :
   dribbble         :
@@ -114,10 +119,10 @@ author:
   gitlab           :
   google_plus      : "u/0/+FerdinandoSantacroce"
   keybase          :
-  instagram        :
+  instagram        : "jesuswasrasta"
   lastfm           :
   linkedin         : "ferdinandosantacroce" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
+  pinterest        : 
   soundcloud       :
   stackoverflow    : "425051/ferdinando-santacroce" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
@@ -263,6 +268,17 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
