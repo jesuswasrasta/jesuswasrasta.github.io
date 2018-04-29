@@ -1,10 +1,14 @@
 ---
-layout: single
-title: About
-date: 2011-06-23T12:09:23+00:00
-author: Ferdinando Santacroce
 permalink: /about/
+title: "About"
+excerpt: "Read more about Ferdinando Santacroce."
+last_modified_at: 2018-04-29T23:12:35-04:00
+toc: true
+#layout: single
+author: Ferdinando Santacroce
 ---
+
+
 **Ferdinando Santacroce** is a developer, author, trainer and speaker who loves learning new things.
 
 As a **software developer**, Ferdinando worked a lot on the <a title="Microsoft Dot Net Platform" href="http://www.microsoft.com/net" target="_blank">.NET platform </a>using <a title="C Sharp" href="http://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">C#</a>, bridging the gaps from old style systems and new technologies. During his career he has allowed <a title="Microfocus COBOL" href="http://microfocus.com/" target="_blank">COBOL</a> applications to talk with remote services, databases and electronic devices like _cash handlers_, _document scanners_ and _electronic shelf labels_.  
