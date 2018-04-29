@@ -7,7 +7,6 @@
 *.sw[p_]
 
 # Sublime Text
-*.gem
 *.sublime-project
 *.sublime-workspace
 
@@ -39,3 +38,4 @@ Gemfile.lock
 node_modules
 npm-debug.log*
 desktop.ini
+vendor
