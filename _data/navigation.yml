@@ -4,8 +4,18 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
      url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "Posts"
+     url: /year-archive/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  # - title: "Pages"
+  #   url: /page-archive/
+  # - title: "Collections"
+  #   url: /collection-archive/
+  # - title: "External Link"
+  #   url: https://google.com
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
