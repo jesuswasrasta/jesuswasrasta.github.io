@@ -27,9 +27,9 @@ teaser                   : "/assets/images/teaser-fallback-500x300.png" # path o
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 150
 comments:
-  provider               : disqus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : jesuswasrasta-com.disqus.com # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "jesuswasrasta-com.disqus.com" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -75,12 +75,12 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : jesuswasrasta
+  username               : "jesuswasrasta"
 facebook:
-  username               : ferdinando.santacroce
+  username               : "ferdinando.santacroce"
   app_id                 :
   publisher              :
-og_image                 : /assets/images/ferdinando.santacroce.jpg # Open Graph/Twitter default site image
+og_image                 : "/assets/images/ferdinando.santacroce.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -95,9 +95,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : google-gtag # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : UA-2145651-5
+    tracking_id          : "UA-2145651-5"
 
 
 # Site Author
@@ -108,7 +108,7 @@ author:
   location         : "Italy"
   email            : "ferdinando.santacroce@gmail.com"
   uri              :
-  home             : "/about/"" # null (default), "absolute or relative url to link to author home"
+  home             : "/about/" # null (default), "absolute or relative url to link to author home"
   bitbucket        : "fsantacroce"
   codepen          :
   dribbble         :
