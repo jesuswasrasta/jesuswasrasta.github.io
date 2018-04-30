@@ -1,11 +1,11 @@
 ---
-permalink: /about/
 title: "About"
 excerpt: "Read more about Ferdinando Santacroce."
-last_modified_at: 2018-04-29T23:12:35-04:00
+permalink: /about/
+layout: single
 toc: true
-#layout: single
 author: Ferdinando Santacroce
+last_modified_at: 2018-04-29T23:12:35-04:00
 ---
 
 
