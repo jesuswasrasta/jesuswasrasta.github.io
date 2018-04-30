@@ -24,7 +24,7 @@ He loves even teach to ordinary people, from children to grandpas, getting them 
 
 Ferdinando enjoys writing, too; after some years of silence, he started to blog again about his **work** and **passions**, which often ends to be the same thing.
   
-He also wrote a book :orange_book: for [Packt Publishing](https://www.packtpub.com/) about **Git**, [Git Essentials]({{ site.baseurl }}/git-essentials "Git Essentials 2nd Edition").
+He also wrote a book :orange_book: for [Packt Publishing](https://www.packtpub.com/) about **Git**, [Git Essentials](https://www.amazon.com/s/ref=dp_byline_sr_book_1?ie=UTF8&text=Ferdinando+Santacroce&search-alias=books&field-author=Ferdinando+Santacroce&sort=relevancerank "Ferdinando Santacroce on Amazon").
 
 Mostly of what he learned comes from his fellows and colleagues, which incites him reading books, attend to inspiring conference like <a title="XP Conf" href="http://xp2015.org" target="_blank">XP Conf</a>, <a title="Agile Day" href="http://www.agileday.it/" target="_blank">Italian Agile Day</a>, <a title="Codemotion" href="http://it.codemotionworld.com/" target="_blank">Codemotion</a>, other that helping his growth working on the same code with him.
 
@@ -59,12 +59,12 @@ I like writing.
 ## Git Essentials
 Some time ago I wrote a book for [Packt Publishing](https://www.packtpub.com/) about _Git_, **[Git Essentials](https://www.packtpub.com/application-development/git-essentials)**.
 
-![Git Essentilas]({{ site.baseurl }}/images/git-essentials-1st-edition-small.png "Git Essentials 1st Edition"){: .center-image }
+![Git Essentilas]({{ site.url }}{{ site.baseurl }}/assets/images/git-essentials-1st-edition-small.png "Git Essentials 1st Edition"){: .center-image }
 
 I really enjoyed writing it, I learnt a lot. So I decided to write it again :)  
 **[Git Essentials, 2nd Edition](https://www.packtpub.com/application-development/git-essentials-second-edition)**.
 
-![Git Essentials, 2nd Edition]({{ site.baseurl }}/images/git-essentials-2nd-edition-small.png "Git Essentials 2nd Edition"){: .center-image }
+![Git Essentials, 2nd Edition]({{ site.url }}{{ site.baseurl }}/assets/images/git-essentials-2nd-edition-small.png "Git Essentials 2nd Edition"){: .center-image }
 
 Follow me on [Goodreads](https://www.goodreads.com/author/show/13649672.Ferdinando_Santacroce) to learn more about books I like and I write.
 
