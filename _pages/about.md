@@ -4,7 +4,7 @@ excerpt: "Read more about Ferdinando Santacroce."
 permalink: /about/
 layout: single
 author_profile: true
-toc: true
+toc: false
 last_modified_at: 2018-04-29T23:12:35-04:00
 ---
 
@@ -27,4 +27,4 @@ He also wrote a book :orange_book: for [Packt Publishing](https://www.packtpub.c
 
 Mostly of what he learned comes from his fellows and colleagues, which incites him reading books, attend to inspiring conference like [XP Conf](https://www.agilealliance.org/xp2018){:target="_blank"}, [Italian Agile Days](http://www.agileday.it/){:target="_blank"}, [Codemotion](http://it.codemotionworld.com/){:target="_blank"}, other that helping his growth working on the same code with him.
 
-All the energy he spend comes from his wife, Maria, and their newborn kid, Giovanni.
+All the energy he spend comes from his wife, Maria :woman:, and their newborn kid, Giovanni :baby:.
