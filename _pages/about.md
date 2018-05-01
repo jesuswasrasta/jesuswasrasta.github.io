@@ -23,50 +23,8 @@ He loves even teach to ordinary people, from children to grandpas, getting them 
 
 Ferdinando enjoys writing, too; after some years of silence, he started to blog again about his **work** and **passions**, which often ends to be the same thing.
   
-He also wrote a book :orange_book: for [Packt Publishing](https://www.packtpub.com/){:target="_blank"} about **Git**, [Git Essentials](https://www.amazon.com/s/ref=dp_byline_sr_book_1?ie=UTF8&text=Ferdinando+Santacroce&search-alias=books&field-author=Ferdinando+Santacroce&sort=relevancerank "Ferdinando Santacroce on Amazon){:target="_blank"}.
+He also wrote a book :orange_book: for [Packt Publishing](https://www.packtpub.com/){:target="_blank"} about **Git**, [Git Essentials](https://www.amazon.com/s/ref=dp_byline_sr_book_1?ie=UTF8&text=Ferdinando+Santacroce&search-alias=books&field-author=Ferdinando+Santacroce&sort=relevancerank "Ferdinando Santacroce on Amazon"){:target="_blank"}.
 
 Mostly of what he learned comes from his fellows and colleagues, which incites him reading books, attend to inspiring conference like [XP Conf](https://www.agilealliance.org/xp2018){:target="_blank"}, [Italian Agile Days](http://www.agileday.it/){:target="_blank"}, [Codemotion](http://it.codemotionworld.com/){:target="_blank"}, other that helping his growth working on the same code with him.
 
 All the energy he spend comes from his wife, Maria, and their newborn kid, Giovanni.
-
-## Talks
-Here a brief list of my public appearances :blush:
-
-### 2018
-* **Objcts Calisthenics Workshop** :it: at [Torino Agile Conference 2018](http://www.agileday.it/mini/2018/torino/#ferdinandosantacroce) 
-  * [TicTacToe kata repo](https://github.com/jesuswasrasta/TicTacToe){:target="_blank"}
-* **TDD Milano Meetup** :it:
-  * **[Git Essentials Workshop](https://www.meetup.com/it-IT/TDD-Milano/events/245383610/){:target="_blank"}**
-  * **[Object Calisthenics Workshop](https://www.meetup.com/it-IT/TDD-Milano/events/247937838/){:target="_blank"}**
-    * [Slides](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-tdd-milano){:target="_blank"}
-    * [Farkle kata repo](https://github.com/jesuswasrasta/KataFarkle){:target="_blank"}
-
-### 2017
-I focused on organizing events, rather than partecipating as a speaker :blush:
-
-### 2016
-* **[TDD a piccoli passi](http://www.agileday.it/front/sessions/4888/){:target="_blank"}** :it: at [Italian Agile Days 2016](http://www.agileday.it/2016/){:target="_blank"}
-  * [Feedback](https://joind.in/event/iad16---italian-agile-days-2016/tdd-a-piccoli-passi){:target="_blank"}
-  * [Slides](https://www.slideshare.net/FerdinandoSantacroce/tdd-a-piccoli-passi){:target="_blank"}
-  * [GitHub repo](https://github.com/jesuswasrasta/SmallStepsTDD){:target="_blank"}
-* **Agile versioning with Git** :it: at [Mini Italian Agile Day, Savona, 2016](http://www.agileday.it/mini/2016/savona/){:target="_blank"}
-  * [Slides](https://www.slideshare.net/FerdinandoSantacroce/agile-versioning-with-git-60998779){:target="_blank"}
-
-## Writings
-I like writing.  
-
-### Git Essentials
-Some time ago I wrote a book for [Packt Publishing](https://www.packtpub.com/){:target="_blank"} about _Git_, **[Git Essentials](https://www.packtpub.com/application-development/git-essentials){:target="_blank"}**.
-
-![Git Essentilas]({{ site.url }}{{ site.baseurl }}/assets/images/git-essentials-1st-edition-small.png "Git Essentials 1st Edition){: .center-image }
-
-I really enjoyed writing it, I learnt a lot. So I decided to write it again :)  
-**[Git Essentials, 2nd Edition](https://www.packtpub.com/application-development/git-essentials-second-edition){:target="_blank"}**.
-
-![Git Essentials, 2nd Edition]({{ site.url }}{{ site.baseurl }}/assets/images/git-essentials-2nd-edition-small.png "Git Essentials 2nd Edition){: .center-image }
-
-Follow me on [Goodreads](https://www.goodreads.com/author/show/13649672.Ferdinando_Santacroce){:target="_blank"} to learn more about books I like and I write.
-
-### Mokabyte
-I'm a Technical Author for [Mokabyte](http://www.mokabyte.it){:target="_blank"}, a 20 years old Italian webzine.  
-Here my series about **[Git, the stupid content tracker](http://www.mokabyte.it/author/ferdinando-santacroce/){:target="_blank"}**.
