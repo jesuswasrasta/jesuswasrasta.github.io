@@ -9,7 +9,7 @@ categories:
   - Development
   - Software
 tags:
-  - .net
+  - .NET
   - C#
   - dapper
   - orm
