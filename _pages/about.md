@@ -2,7 +2,8 @@
 title: "About"
 excerpt: "Read more about Ferdinando Santacroce."
 permalink: /about/
-layout: single
+#layout: single
+author_profile: true
 toc: true
 author: Ferdinando Santacroce
 last_modified_at: 2018-04-29T23:12:35-04:00
