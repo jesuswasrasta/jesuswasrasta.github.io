@@ -2,20 +2,18 @@
 title: "About"
 excerpt: "Read more about Ferdinando Santacroce."
 permalink: /about/
-#layout: single
+layout: single
 author_profile: true
 toc: true
-author: Ferdinando Santacroce
 last_modified_at: 2018-04-29T23:12:35-04:00
 ---
-
 
 **Ferdinando Santacroce** is a developer, author, trainer and speaker who loves learning new things.
 
 As a **software developer**, Ferdinando worked a lot on the [Microsoft Dot Net Platform](http://www.microsoft.com/net){:target="_blank"} using [C#](http://en.wikipedia.org/wiki/C_Sharp_(programming_language)){:target="_blank"}, bridging the gaps from old style systems and new technologies. During his career he has allowed [COBOL](http://microfocus.com/){:target="_blank"} applications to talk with remote services, databases and electronic devices like _cash handlers_, _document scanners_ and _electronic shelf labels_.  
 At the moment he focuses on Java and JavaScript projects, working on software for a big Italian energy player.
 
-He pursue continuous improving and the [Agile Movement](http://agilemanifesto.org/){:target="_blank"}, which he follows with great care, in conjunction with [eXtreme Programming](http://xprogramming.com/index.php){:target="_blank"} foundations and [Lean Manufacturing](http://en.wikipedia.org/wiki/Lean_manufacturing){:target="_blank"}.
+He pursue continuous improving and the [Agile Movement](http://agilemanifesto.org/){:target="_blank"}, which he follows with great care, in conjunction with [eXtreme Programming](http://www.extremeprogramming.org/){:target="_blank"} foundations and [Lean Manufacturing](http://en.wikipedia.org/wiki/Lean_manufacturing){:target="_blank"}.
   
 Since 2015, he is a member and advisor of [Italian Agile Movement](http://www.agilemovement.it){:target="_blank"}, an associations that takes care of agile disciplines in Italy; every year he contributes to the organization of the [Italian Agile Days](http://www.agileday.it){:target="_blank"}, the biggest conference in Italy about the topic.
 
