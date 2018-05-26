@@ -119,10 +119,10 @@ author:
   gitlab           :
   google_plus      : "u/0/+FerdinandoSantacroce"
   keybase          :
-  instagram        : "jesuswasrasta"
+  instagram        : #"jesuswasrasta"
   lastfm           :
   linkedin         : "ferdinandosantacroce" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        : 
+  pinterest        :
   soundcloud       :
   stackoverflow    : "425051/ferdinando-santacroce" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
