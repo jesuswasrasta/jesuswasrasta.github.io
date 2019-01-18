@@ -10,10 +10,17 @@ last_modified_at: 2018-04-29T23:12:35-04:00
 Here a brief list of my public appearances :blush:
 
 ## 2018
-:it: :uk: [Milan Kotlin Community Conf 2018](http://milan.kotlincommunityconf.com){:target="_blank"}  
- * In this case I'm not a speaker, actually I'm the chair of the 1st oneday conference about Kotlin here in Italy :smiley:
+:it: [Italian Agile Days 2018 - Brescia](https://www.agileday.it){:target="_blank"}  
+ * [I'm a mediocre developer](https://www.agileday.it/front/sessions/im-a-mediocre-developer/){:target="_blank"}
+  * [Video](https://vimeo.com/306402799){:target="_blank"} :movie_camera: :it:
+  * [Feedback](https://www.linkedin.com/feed/update/urn:li:activity:6479380811970801664){:target="_blank"}
+  * [Slides](https://www.slideshare.net/FerdinandoSantacroce/im-a-mediocre-developer){:target="_blank"} :it:
+  * [Sono uno sviluppatore mediocre](http://www.mokabyte.it/2018/11/sviluppatoremediocre/){:target="_blank"} :it:
 
-:it: [Torino Agile Conference 2018](http://www.agileday.it/mini/2018/torino/#ferdinandosantacroce){:target="_blank"}  
+:it: :uk: [Milan Kotlin Community Conf 2018](https://milan.kotlincommunityconf.com){:target="_blank"}  
+ * In this case I'm not a speaker, actually I'm the chair of the 1st one-day conference about Kotlin here in Italy :smiley:
+
+:it: [Torino Agile Conference 2018](https://www.agileday.it/mini/2018/torino/#ferdinandosantacroce){:target="_blank"}  
 * **Objcts Calisthenics Workshop**
   * [TicTacToe kata repo](https://github.com/jesuswasrasta/TicTacToe){:target="_blank"}
 
