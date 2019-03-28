@@ -22,7 +22,7 @@ Here a collection of tips, FAQs and things I discovered while setting up this bl
 
 ## Jekill
 [Jekyll](https://jekyllrb.com) website has a very well-done docs section; I followed this guide, [Jekyll on Windows](https://jekyllrb.com/docs/windows/).  
-I went for [Installation via Bash on Windows 10](https://jekyllrb.com/docs/windows/#installation-via-bash-on-windows-10).  
+I went for [Installation via Bash on Windows 10](https://jekyllrb.com/docs/installation/windows/#installation-via-bash-on-windows-10).  
 
 ### Running the blog locally
 Prerequisites: a valid installation of Jekyll.  
