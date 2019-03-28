@@ -9,6 +9,11 @@ last_modified_at: 2018-04-29T23:12:35-04:00
 ---
 Here a brief list of my public appearances :blush:
 
+## 2019
+:it: [Meetup FEVR (FrontEnders VeRona)/BUG (Backender User Group) - Verona](http://www.fevr.it){:target="_blank"}  
+ * [I'm a mediocre developer](http://www.fevr.it/eventi/2019/03/im-a-mediocre-developer/){:target="_blank"}
+  * [Video](https://www.facebook.com/marco.albarelli1/videos/10216948832264643/){:target="_blank"} :movie_camera: :it:
+
 ## 2018
 :it: [Italian Agile Days 2018 - Brescia](https://www.agileday.it){:target="_blank"}  
  * [I'm a mediocre developer](https://www.agileday.it/front/sessions/im-a-mediocre-developer/){:target="_blank"}
