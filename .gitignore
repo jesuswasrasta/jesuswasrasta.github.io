@@ -1,8 +1,13 @@
+# IDE
+.vscode
+.idea
+
 # Vim
 *~
 *.sw[p_]
 
 # Sublime Text
+*.gem
 *.sublime-project
 *.sublime-workspace
 
