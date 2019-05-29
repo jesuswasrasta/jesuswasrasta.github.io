@@ -10,6 +10,10 @@ last_modified_at: 2019-03-28T23:12:35-04:00
 Here a brief list of my public appearances :blush:
 
 ## 2019
+:it: [Meetup XPUG Milano](https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group){:target="_blank"}  
+ * [Panel: qual è lo stato attuale di eXtreme Programming?](https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group/events/260548356/){:target="_blank"}
+  * [Video](https://www.youtube.com/watch?v=4CBU7G7s-wE){:target="_blank"} :movie_camera: :it:
+
 :it: [Meetup FEVR - Verona](http://www.fevr.it){:target="_blank"}  
  * [I'm a mediocre developer](http://www.fevr.it/eventi/2019/03/im-a-mediocre-developer/){:target="_blank"}
   * [Video](https://www.facebook.com/marco.albarelli1/videos/10216948832264643/){:target="_blank"} :movie_camera: :it:
