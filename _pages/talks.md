@@ -10,6 +10,10 @@ last_modified_at: 2019-03-28T23:12:35-04:00
 Here a brief list of my public appearances :blush:
 
 ## 2019
+:it: [Meetup Agile Reloaded](https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/){:target="_blank"}  
+ * [Growing Teams](https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/events/262065465/){:target="_blank"}
+  * [Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846){:target="_blank"} :uk:
+
 :it: [Meetup XPUG Milano](https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group){:target="_blank"}  
  * [Panel: qual è lo stato attuale di eXtreme Programming?](https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group/events/260548356/){:target="_blank"}
   * [Video](https://www.youtube.com/watch?v=4CBU7G7s-wE){:target="_blank"} :movie_camera: :it:
