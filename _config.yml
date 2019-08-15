@@ -114,7 +114,7 @@ author:
   avatar           : "/assets/images/ferdinando.santacroce.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Dev, author, speaker, learner."
   location         : "Italy"
-  email            : "ferdinando.santacroce@gmail.com"
+#  email            : "ferdinando.santacroce@gmail.com"
 
   links:
     - label: "Email"
