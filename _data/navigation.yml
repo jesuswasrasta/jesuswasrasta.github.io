@@ -2,13 +2,13 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
+  - title: "🧔 About"
     url: /about/
-  - title: "Works"
+  - title: "👨‍💻 Works"
     url: /works/
-  - title: "Talks"
+  - title: "🗣️ Talks"
     url: /talks/
-  - title: "Archive"
+  - title: "🗄️ Archive"
     url: /archive/
   # - title: "Categories"
   #   url: /categories/
