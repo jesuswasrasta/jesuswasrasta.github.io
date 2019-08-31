@@ -18,6 +18,10 @@ Here a brief list of my public appearances :blush:
  * [Growing Teams](https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/events/262065465/){:target="_blank"}
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846){:target="_blank"} :uk:
 
+:uk: [Agile Venture Bolzano](https://www.agileday.it/venture/2019/bolzano/){:target="_blank"}  
+ * [I'm a mediocre developer](https://sessionize.com/s/ferdinando-santacroce/im_a_mediocre_developer/23243){:target="_blank"}
+  * [Slides](https://www.slideshare.net/FerdinandoSantacroce/im-a-mediocre-developer-167929970){:target="_blank"} :uk:
+ 
 :it: [Meetup XPUG Milano](https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group){:target="_blank"}  
  * [Panel: qual è lo stato attuale di eXtreme Programming?](https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group/events/260548356/){:target="_blank"}
   * [Video](https://www.youtube.com/watch?v=4CBU7G7s-wE){:target="_blank"} :movie_camera: :it:
