@@ -5,7 +5,7 @@ permalink: /talks/
 layout: single
 author_profile: true
 toc: true
-last_modified_at: 2019-03-28T23:12:35-04:00
+last_modified_at: 2019-08-30T23:12:35-04:00
 ---
 Here a brief list of my public appearances :blush:
 
