@@ -5,7 +5,7 @@ permalink: /talks/
 layout: single
 author_profile: true
 toc: true
-last_modified_at: 2019-08-30T23:12:35-04:00
+last_modified_at: 2019-10-19T23:12:35-04:00
 ---
 Here a brief list of my public appearances :blush:
 
@@ -15,6 +15,17 @@ Here a brief list of my public appearances :blush:
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-agile-venture-firenze){:target="_blank"}
   * [Trivia Kata in Java](https://github.com/jesuswasrasta/trivia-java){:target="_blank"}
   * [Podcast interview](https://www.spreaker.com/user/10553302/intervista-ferdinandosantacroce-avfi) by [Officina Agile](https://www.officinaagile.it/)
+
+:it: [eXtreme Programming User Group Bergamo](https://xpugbg.it/){:target="_blank"}  
+* **Testare l'intestabile**
+  * [Recap](https://xpugbg.it/blog/meetup-workshop-testare-l-intestabile-ferdinando-santacroce-resoconto/){:target="_blank"}
+  * [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-xpugbg){:target="_blank"}
+  * [Trivia Kata in Java](https://github.com/jesuswasrasta/trivia-java){:target="_blank"}
+  * [Video](http://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w) coming soon...
+
+:it: [Working Software Conf](https://www.agilemovement.it/workingsoftware/){:target="_blank"}  
+* I've been the chair of this great... GREAT event! :blush: 
+  * [Videos](https://vimeo.com/showcase/6189515){:target="_blank"}
 
 :it: [Radio24, intervista](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/){:target="_blank"}  
  * [I lavori di domani - Agile Coach](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/agile-coach-175941-AC0jYqU){:target="_blank"} :it:
