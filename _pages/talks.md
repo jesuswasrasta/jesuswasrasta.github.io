@@ -10,6 +10,11 @@ last_modified_at: 2019-08-30T23:12:35-04:00
 Here a brief list of my public appearances :blush:
 
 ## 2019
+:it: [Agile Venture Firenze](https://www.agileday.it/venture/2019/firenze/){:target="_blank"}  
+* **Testare l'intestabile**
+  * [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-agile-venture-firenze){:target="_blank"}
+  * [Trivia Kata in Java](https://github.com/jesuswasrasta/trivia-java){:target="_blank"}
+  * [Podcast interview](https://www.spreaker.com/user/10553302/intervista-ferdinandosantacroce-avfi) by [Officina Agile](https://www.officinaagile.it/)
 
 :it: [Radio24, intervista](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/){:target="_blank"}  
  * [I lavori di domani - Agile Coach](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/agile-coach-175941-AC0jYqU){:target="_blank"} :it:
