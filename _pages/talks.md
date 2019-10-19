@@ -60,7 +60,8 @@ Here a brief list of my public appearances :blush:
   * [Tennis Refactoring Kata](https://github.com/jesuswasrasta/Tennis-Refactoring-Kata){:target="_blank"}
 
 :it: :uk: [Milan Kotlin Community Conf 2018](https://milan.kotlincommunityconf.com){:target="_blank"}  
- * In this case I'm not a speaker, actually I'm the chair of the 1st one-day conference about Kotlin here in Italy :smiley:
+* I've been thee chair of the 1st one-day conference about Kotlin here in Italy :smiley:
+  * [Video](https://vimeo.com/showcase/5286228){:target="_blank"} :movie_camera: :it: :uk:
 
 :it: [Torino Agile Conference 2018](https://www.agileday.it/mini/2018/torino/#ferdinandosantacroce){:target="_blank"}  
 * **Objcts Calisthenics Workshop**
