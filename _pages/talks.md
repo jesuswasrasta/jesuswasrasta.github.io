@@ -76,8 +76,8 @@ Here a brief list of my public appearances :blush:
 ## 2017
 In 2017 I focused on organizing events, rather than partecipating as a speaker :blush:  
 
-:it: [Italian Agile Days 2016](http://www.agileday.it/){:target="_blank"}
-* I'm an advisor of [Italian Agile Movement](http://www.agilemovement.it/){:target="_blank"}, and I help organizing conferences all around Italy.
+:it: [Italian Agile Movement](http://www.agilemovement.it/)
+* I've been elected as advisor. I help organizing [Italian Agile Days](http://www.agileday.it/){:target="_blank"} and many other conferences all around Italy.
 
 ## 2016
 :it: [Italian Agile Days 2016 - Pavia](http://www.agileday.it/2016/){:target="_blank"}
