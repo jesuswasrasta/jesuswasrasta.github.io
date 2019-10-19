@@ -38,6 +38,11 @@ Here a brief list of my public appearances :blush:
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/im-a-mediocre-developer){:target="_blank"} :it:
   * [Sono uno sviluppatore mediocre](http://www.mokabyte.it/2018/11/sviluppatoremediocre/){:target="_blank"} :it:
 
+:it: [Agile Venture Prato](https://www.agileday.it/mini/2018/prato/){:target="_blank"}  
+* **Objcts Calisthenics Workshop**
+  * [Slides](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-agile-venture-prato-2018){:target="_blank"}
+  * [Tennis Refactoring Kata](https://github.com/jesuswasrasta/Tennis-Refactoring-Kata){:target="_blank"}
+
 :it: :uk: [Milan Kotlin Community Conf 2018](https://milan.kotlincommunityconf.com){:target="_blank"}  
  * In this case I'm not a speaker, actually I'm the chair of the 1st one-day conference about Kotlin here in Italy :smiley:
 
