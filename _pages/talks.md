@@ -10,7 +10,12 @@ last_modified_at: 2019-10-19T23:12:35-04:00
 Here a brief list of my public appearances :blush:
 
 ## 2019
-:it: [Agile Venture Firenze](https://www.agileday.it/venture/2019/firenze/){:target="_blank"}  
+:it: [Italian Agile Days Modena](https://www.agileday.it/){:target="_blank"}  
+* **Testare l'intestabile**
+  * [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-italian-agile-days-2019-iad19){:target="_blank"}
+  * [Trivia Kata in Java](https://github.com/jesuswasrasta/trivia-java){:target="_blank"}
+
+:it: [Agile Venture Firenze](https://www.agilemovement.it/venture/2019/firenze/){:target="_blank"}  
 * **Testare l'intestabile**
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-agile-venture-firenze){:target="_blank"}
   * [Trivia Kata in Java](https://github.com/jesuswasrasta/trivia-java){:target="_blank"}
@@ -34,7 +39,7 @@ Here a brief list of my public appearances :blush:
  * [Growing Teams](https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/events/262065465/){:target="_blank"}
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846){:target="_blank"} :uk:
 
-:uk: [Agile Venture Bolzano](https://www.agileday.it/venture/2019/bolzano/){:target="_blank"}  
+:uk: [Agile Venture Bolzano](https://www.agilemovement.it/venture/2019/bolzano/){:target="_blank"}  
  * [I'm a mediocre developer](https://sessionize.com/s/ferdinando-santacroce/im_a_mediocre_developer/23243){:target="_blank"}
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/im-a-mediocre-developer-167929970){:target="_blank"} :uk:
  
