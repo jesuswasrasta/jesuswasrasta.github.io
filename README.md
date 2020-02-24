@@ -108,11 +108,11 @@ After this, command `bundle install` ends successfully.
 
 ### Problem: rake not installed
 Rake is _make for Ruby_: [Rake](https://github.com/ruby/rake).  
-In deals with `Rakefile` files; Jekyll uses it to assemble all the _sources_ and make the actual website.  
+It deals with `Rakefile` files; Jekyll uses it to assemble all the _sources_ and make the actual website.  
 
 #### Solution: install it
 Install it with `sudo apt install rake`.  
-The install the Ruby gem `sudo gem install rake`
+Then install the Ruby gem `sudo gem install rake`
 
 ### Problem: Jekyll serve fails
 Jekyll can serve your website locally, to let you develop and test the results.  
