@@ -34,7 +34,9 @@ Here a brief list of my public appearances :blush:
 
 :it: [Working Software Conf](https://www.agilemovement.it/workingsoftware/){:target="_blank"}  
 * I've been the chair of this great... GREAT event! :blush: 
+  * [Intro ](https://vimeo.com/351825816){:target="_blank"}
   * [Videos](https://vimeo.com/showcase/6189515){:target="_blank"}
+  
 
 :it: [Radio24, intervista](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/){:target="_blank"}  
  * [I lavori di domani - Agile Coach](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/agile-coach-175941-AC0jYqU){:target="_blank"} :it:
