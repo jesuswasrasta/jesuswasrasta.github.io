@@ -100,12 +100,15 @@ author:
   avatar           : "/assets/images/ferdinando.santacroce.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Dev, author, speaker, learner."
   location         : "Italy"
-#  email            : "ferdinando.santacroce@gmail.com"
+  #  email            : "ferdinando.santacroce@gmail.com"
 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:ferdinando.santacroce@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/jesuswasrasta"
