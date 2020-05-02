@@ -5,15 +5,16 @@ permalink: /talks/
 layout: single
 author_profile: true
 toc: true
-last_modified_at: 2019-10-19T23:12:35-04:00
+last_modified_at: 2020-02-01T23:12:35-04:00
 ---
 Here a brief list of my public appearances :blush:
 
-## 2019
+## 2020
 :it: [Agile Venture Milano](https://www.agilemovement.it/venture/2020/milano/){:target="_blank"}  
 * **Growing Teams**
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846){:target="_blank"} :uk:
 
+## 2019
 :it: [Italian Agile Days Modena](https://www.agileday.it/){:target="_blank"}  
 * **Testare l'intestabile**
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-italian-agile-days-2019-iad19){:target="_blank"}
