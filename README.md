@@ -1,273 +1,142 @@
-# [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+# Ferdinando Santacroce's blog
+This is my personal blog, available at [jesuswasrasta.com](https://jesuswasrasta.com).  
+
+# Credits
+[Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)
+
+# Handy references
+Minimal Mistakes Theme
+* [Minimal Mistake template - Quick Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/)
+* [When you have some doubts on formatting or so](https://mmistakes.github.io/minimal-mistakes/year-archive/)
+
+I use the [Remote theme method](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#remote-theme-method).  
+To update the theme, see [upgrading guide](https://mmistakes.github.io/minimal-mistakes/docs/upgrading/#remote-theme).  
+
+Jekyll
+* [Jekyll Docs](https://jekyllrb.com/docs/home/)  
+* [Using Jekyll as a static site generator with GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)
+
+Markdown
+* [Kramdown Syntax](https://github.com/Stamplay/docs/wiki/Kramdown-Syntax)
+
+
+# Tips, FAQs and WTFAQs
+Here a collection of tips, FAQs and things I discovered while setting up this blog.
+
+## Jekill
+[Jekyll](https://jekyllrb.com) website has a very well-done docs section; I followed this guide, [Jekyll on Windows](https://jekyllrb.com/docs/windows/).  
+I went for [Installation via Bash on Windows 10](https://jekyllrb.com/docs/installation/windows/#installation-via-bash-on-windows-10).  
+
+### Running the blog locally
+Prerequisites: a valid installation of Jekyll.  
+1. Navigate to your blog folder  
+2. Run `bundle exec jekyll serve`; it will run your blog at [localhost:4000](http://localhost:4000)
+
+Using `bundle exec jekyll serve --incremental` will reload your `_config.yml` when it changes.  
+
+### Problem: bundle install fails because of nokogiri
+Installation done with `bundle install` encountered a problem with `nokogiri`:  
+~~~
+$ bundle install
+...[omissis]...
+Fetching nokogiri 1.8.2
+Installing nokogiri 1.8.2 with native extensions
+Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+current directory:
+/mnt/c/D/Source/Github/jesuswasrasta/jesuswasrasta.github.io/vendor/bundle/gems/nokogiri-1.8.2/ext/nokogiri
+/usr/bin/ruby2.3 -r ./siteconf20180501-67-1svnupg.rb extconf.rb
+checking if the C compiler accepts ... yes
+Building nokogiri using packaged libraries.
+Using mini_portile version 2.3.0
+checking for gzdopen() in -lz... no
+zlib is missing; necessary for building libxml2
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+        --with-opt-dir
+        --without-opt-dir
+        --with-opt-include
+        --without-opt-include=${opt-dir}/include
+        --with-opt-lib
+        --without-opt-lib=${opt-dir}/lib
+        --with-make-prog
+        --without-make-prog
+        --srcdir=.
+        --curdir
+        --ruby=/usr/bin/$(RUBY_BASE_NAME)2.3
+        --help
+        --clean
+        --use-system-libraries
+        --enable-static
+        --disable-static
+        --with-zlib-dir
+        --without-zlib-dir
+        --with-zlib-include
+        --without-zlib-include=${zlib-dir}/include
+        --with-zlib-lib
+        --without-zlib-lib=${zlib-dir}/lib
+        --enable-cross-build
+        --disable-cross-build
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+/mnt/c/D/Source/Github/jesuswasrasta/jesuswasrasta.github.io/vendor/bundle/extensions/x86_64-linux/2.3.0/nokogiri-1.8.2/mkmf.log
+
+extconf failed, exit code 1
+
+Gem files will remain installed in
+/mnt/c/D/Source/Github/jesuswasrasta/jesuswasrasta.github.io/vendor/bundle/gems/nokogiri-1.8.2 for inspection.
+Results logged to
+/mnt/c/D/Source/Github/jesuswasrasta/jesuswasrasta.github.io/vendor/bundle/extensions/x86_64-linux/2.3.0/nokogiri-1.8.2/gem_make.out
+
+An error occurred while installing nokogiri (1.8.2), and Bundler cannot continue.
+Make sure that `gem install nokogiri -v '1.8.2'` succeeds before bundling.
+
+In Gemfile:
+  github-pages was resolved to 183, which depends on
+    jekyll-mentions was resolved to 1.3.0, which depends on
+      html-pipeline was resolved to 2.7.2, which depends on
+        nokogiri
+~~~
+{: .language-shell}
+
+#### Solution: install these dependencies
+I solved installing these packages:  
+`sudo apt-get install gcc ruby-dev libxslt-dev libxml2-dev zlib1g-dev`  
+After this, command `bundle install` ends successfully.  
+
+### Problem: rake not installed
+Rake is _make for Ruby_: [Rake](https://github.com/ruby/rake).  
+It deals with `Rakefile` files; Jekyll uses it to assemble all the _sources_ and make the actual website.  
+
+#### Solution: install it
+Install it with `sudo apt install rake`.  
+Then install the Ruby gem `sudo gem install rake`
+
+### Problem: Jekyll serve fails
+Jekyll can serve your website locally, to let you develop and test the results.  
+You can start up a local webserver running the command `jekyll s` inside the folder of your repositry: 
+~~~
+~/jesuswasrasta.github.io$ jekyll s
+~~~
+
+In my PC, this raised this error:  
+~~~
+~/jesuswasrasta.github.io$ jekyll s
+/var/lib/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/runtime.rb:313:in `check_for_activated_spec!': You have already activated public_suffix 3.0.2, but your Gemfile requires public_suffix 2.0.5. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
+        from /var/lib/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/runtime.rb:31:in `block in setup'
+        from /usr/lib/ruby/2.3.0/forwardable.rb:202:in `each'
+        from /usr/lib/ruby/2.3.0/forwardable.rb:202:in `each'
+        from /var/lib/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/runtime.rb:26:in `map'
+        from /var/lib/gems/2.3.0/gems/bundler-1.16.1/lib/bundler/runtime.rb:26:in `setup'
+        from /var/lib/gems/2.3.0/gems/bundler-1.16.1/lib/bundler.rb:107:in `setup'
+        from /var/lib/gems/2.3.0/gems/jekyll-3.8.0/lib/jekyll/plugin_manager.rb:50:in `require_from_bundler'
+        from /var/lib/gems/2.3.0/gems/jekyll-3.8.0/exe/jekyll:11:in `<top (required)>'
+        from /usr/local/bin/jekyll:22:in `load'
+        from /usr/local/bin/jekyll:22:in `<main>'
+~~~
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
-[![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/mmistakes)
-
-Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building personal sites, blogs, and portfolios. As the name implies, styling is purposely minimalistic to be enhanced and customized by you :smile:.
-
-:sparkles: See what's new in the [CHANGELOG](CHANGELOG.md).
-
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/mmistakes) to continue developing and maintaining it.**
-
-[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
-
-**Note:** The theme uses the [jekyll-include-cache](https://github.com/benbalter/jekyll-include-cache) plugin which will need to be installed in your `Gemfile` and added to the `plugins` array of `_config.yml`. Otherwise you'll encounter `Unknown tag 'include_cached'` errors at build.
-
-[![Minimal Mistakes live preview][2]][1]
-
-[1]: https://mmistakes.github.io/minimal-mistakes/
-[2]: screenshot.png (live preview)
-
-![layout examples](screenshot-layouts.png)
-
-## Notable features
-
-- Bundled as a "theme gem" for easier installation/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
-- Several responsive layout options (single, archive index, search, splash, and paginated home page).
-- Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data.
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
-- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), static-based via [Staticman](https://staticman.net/), and [utterances](https://utteranc.es/)).
-- [Google Analytics](https://www.google.com/analytics/) support.
-- UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Catalan, Chinese, Danish, Dutch, Finnish, French (Français), German (Deutsch), Greek, Hindi (हिंदी), Hungarian, Indonesian, Irish (Gaeilge), Italian (Italiano), Japanese, Korean, Malayalam, Myanmar (Burmese), Nepali (Nepalese), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese.
-
-## Skins (color variations)
-
-This theme comes in nine different skins (in addition to the default one).
-
-| `air` | `contrast` | `dark` |
-| --- | --- | --- |
-| [![air skin](https://mmistakes.github.io/minimal-mistakes/assets/images/air-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/air-skin-archive-large.png) | [![contrast skin](https://mmistakes.github.io/minimal-mistakes/assets/images/contrast-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/contrast-skin-archive-large.png) | [![dark skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dark-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/dark-skin-archive-large.png) |
-
-| `dirt` | `mint` | `sunrise` |
-| --- | --- | --- |
-| [![dirt skin](https://mmistakes.github.io/minimal-mistakes/assets/images/dirt-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/dirt-skin-archive-large.png) | [![mint skin](https://mmistakes.github.io/minimal-mistakes/assets/images/mint-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/mint-skin-archive-large.png) | [![sunrise skin](https://mmistakes.github.io/minimal-mistakes/assets/images/sunrise-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/sunrise-skin-archive-large.png) |
-
-| `aqua` | `neon` | `plum` |
-| --- | --- | --- |
-| [![aqua skin](https://mmistakes.github.io/minimal-mistakes/assets/images/aqua-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/aqua-skin-archive-large.png) | [![neon skin](https://mmistakes.github.io/minimal-mistakes/assets/images/neon-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/neon-skin-archive-large.png) | [![plum skin](https://mmistakes.github.io/minimal-mistakes/assets/images/plum-skin-archive.png)](https://mmistakes.github.io/minimal-mistakes/assets/images/plum-skin-archive-large.png) |
-
-## Demo pages
-
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
-
-Additional sample posts are available under [posts archive][year-archive] on the demo site. Source files for these (and the entire demo site) can be found in [`/docs`](docs).
-
-[header-image-post]: https://mmistakes.github.io/minimal-mistakes/layout-header-image-text-readability/
-[gallery-post]: https://mmistakes.github.io/minimal-mistakes/post%20formats/post-gallery/
-[html-tags-post]: https://mmistakes.github.io/minimal-mistakes/markup/markup-html-tags-and-formatting/
-[syntax-post]: https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting/
-[sample-collection]: https://mmistakes.github.io/minimal-mistakes/recipes/chocolate-chip-cookies/
-[categories-archive]: https://mmistakes.github.io/minimal-mistakes/categories/
-[tags-archive]: https://mmistakes.github.io/minimal-mistakes/tags/
-[year-archive]: https://mmistakes.github.io/minimal-mistakes/year-archive/
-
-## Installation
-
-There are three ways to install: as a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes), as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible), or forking/directly copying all of the theme files into your project.
-
-### Gem-based method
-
-With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`, and `_sass` are stored in the theme’s gem, hidden from your immediate view. Yet all of the necessary directories will be read and processed during Jekyll’s build process.
-
-This allows for easier installation and updating as you don't have to manage any of the theme files. To install:
-
-1. Add the following to your `Gemfile`:
-
-   ```ruby
-   gem "minimal-mistakes-jekyll"
-   ```
-
-2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
-
-   ```bash
-   bundle
-   ```
-
-3. Set the `theme` in your project's Jekyll `_config.yml` file:
-
-   ```yaml
-   theme: minimal-mistakes-jekyll
-   ```
-
-To update the theme run `bundle update`.
-
-### Remote theme method
-
-Remote themes are similar to Gem-based themes, but do not require `Gemfile` changes or whitelisting making them ideal for sites hosted with GitHub Pages.
-
-To install:
-
-1. Create/replace the contents of your `Gemfile` with the following:
-
-   ```ruby
-   source "https://rubygems.org"
-
-   gem "github-pages", group: :jekyll_plugins
-   ```
-
-2. Add `jekyll-include-cache` to the `plugins` array of your `_config.yml`.
-
-3. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
-
-   ```bash
-   bundle
-   ```
-
-4. Add `remote_theme: "mmistakes/minimal-mistakes@4.19.3"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
-
-**Looking for an example?** Use the [Minimal Mistakes remote theme starter](https://github.com/mmistakes/mm-github-pages-starter/generate) for the quickest method of getting a GitHub Pages hosted site up and running. Generate a new repository from the starter, replace sample content with your own, and configure as needed.
-
-## Usage
-
-For detailed instructions on how to configure, customize, add/migrate content, and more read the [theme's documentation](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/).
-
----
-
-## Contributing
-
-Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/mmistakes/minimal-mistakes/issues)? Then by all means [submit an issue](https://github.com/mmistakes/minimal-mistakes/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
-
-Minimal Mistakes has been designed as a base for you to customize and fit your site's unique needs. Please keep this in mind when requesting features and/or submitting pull requests. If it's not something that most people will use, I probably won't consider it. When in doubt ask. 
-
-This goes for author sidebar links and "share button" additions -- I have no intention of merging in every possibly option, the essentials are there to get you started :smile:.
-
-### Pull Requests
-
-When submitting a pull request:
-
-1. Clone the repo.
-2. Create a branch off of `master` and give it a meaningful name (e.g. `my-awesome-new-feature`).
-3. Open a pull request on GitHub and describe the feature or fix.
-
-Theme documentation and demo pages can be found in the [`/docs`](docs) if submitting improvements, typo corrections, etc.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-To test the theme, run `bundle exec rake preview` and open your browser at `http://localhost:4000/test/`. This starts a Jekyll server using content in the `test/` directory. As modifications are made to the theme and test site, it will regenerate and you should see the changes in the browser after a refresh.
-
----
-
-## Credits
-
-### Creator
-
-**Michael Rose**
-
-- <https://mademistakes.com>
-- <https://twitter.com/mmistakes>
-- <https://github.com/mmistakes>
-
-### Icons + Demo Images:
-
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
-- [Font Awesome](http://fontawesome.io/)
-- [Unsplash](https://unsplash.com/)
-
-### Other:
-
-- [Jekyll](http://jekyllrb.com/)
-- [jQuery](http://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- [GreedyNav.js](https://github.com/lukejacksonn/GreedyNav)
-- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-- [Gumshoe](https://github.com/cferdinandi/gumshoe)
-- [jQuery throttle / debounce](http://benalman.com/projects/jquery-throttle-debounce-plugin/)
-- [Lunr](http://lunrjs.com)
-
----
-
-## License
-
-The MIT License (MIT)
-
-Copyright (c) 2013-2020 Michael Rose and contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-Minimal Mistakes incorporates icons from [The Noun Project](https://thenounproject.com/) 
-creators Garrett Knoll, Arthur Shlain, and tracy tam.
-Icons are distributed under Creative Commons Attribution 3.0 United States (CC BY 3.0 US).
-
-Minimal Mistakes incorporates [Font Awesome](http://fontawesome.io/),
-Copyright (c) 2017 Dave Gandy.
-Font Awesome is distributed under the terms of the [SIL OFL 1.1](http://scripts.sil.org/OFL) 
-and [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates photographs from [Unsplash](https://unsplash.com).
-
-Minimal Mistakes incorporates [Susy](http://susy.oddbird.net/),
-Copyright (c) 2017, Miriam Eric Suzanne.
-Susy is distributed under the terms of the [BSD 3-clause "New" or "Revised" License](https://opensource.org/licenses/BSD-3-Clause).
-
-Minimal Mistakes incorporates [Breakpoint](http://breakpoint-sass.com/).
-Breakpoint is distributed under the terms of the [MIT/GPL Licenses](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [FitVids.js](https://github.com/davatron5000/FitVids.js/),
-Copyright (c) 2013 Dave Rubert and Chris Coyier.
-FitVids is distributed under the terms of the [WTFPL License](http://sam.zoy.org/wtfpl/).
-
-Minimal Mistakes incorporates [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/),
-Copyright (c) 2014-2016 Dmitry Semenov, http://dimsemenov.com.
-Magnific Popup is distributed under the terms of the MIT License.
-
-Minimal Mistakes incorporates [Smooth Scroll](http://github.com/cferdinandi/smooth-scroll),
-Copyright (c) 2019 Chris Ferdinandi.
-Smooth Scroll is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [Gumshoejs](http://github.com/cferdinandi/gumshoe),
-Copyright (c) 2019 Chris Ferdinandi.
-Smooth Scroll is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [jQuery throttle / debounce](http://benalman.com/projects/jquery-throttle-debounce-plugin/),
-Copyright (c) 2010 "Cowboy" Ben Alman.
-jQuery throttle / debounce is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [GreedyNav.js](https://github.com/lukejacksonn/GreedyNav),
-Copyright (c) 2015 Luke Jackson.
-GreedyNav.js is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [Jekyll Group-By-Array](https://github.com/mushishi78/jekyll-group-by-array),
-Copyright (c) 2015 Max White <mushishi78@gmail.com>.
-Jekyll Group-By-Array is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [@allejo's Pure Liquid Jekyll Table of Contents](https://allejo.io/blog/a-jekyll-toc-in-liquid-only/),
-Copyright (c) 2017 Vladimir Jimenez.
-Pure Liquid Jekyll Table of Contents is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-Minimal Mistakes incorporates [Lunr](http://lunrjs.com),
-Copyright (c) 2018 Oliver Nightingale.
-Lunr is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
