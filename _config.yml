@@ -84,7 +84,6 @@ social:
   links: # An array of links to social media profiles
     - "https://twitter.com/jesuswasrasta"
     - "https://facebook.com/ferdinando.santacroce"
-    - "https://instagram.com/jesuswasrasta"
     - "https://www.linkedin.com/in/ferdinandosantacroce"
 
 # Analytics
@@ -98,7 +97,7 @@ analytics:
 author:
   name             : "Ferdinando Santacroce"
   avatar           : "/assets/images/ferdinando.santacroce.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Dev, author, speaker, learner."
+  bio              : "Coach, dev, author, speaker, learner."
   location         : "Italy"
   #  email            : "ferdinando.santacroce@gmail.com"
 
@@ -236,6 +235,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -244,6 +244,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 
 # Archives
