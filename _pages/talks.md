@@ -13,6 +13,7 @@ Here a brief list of my public appearances :blush:
 :it: [Agile Venture Milano](https://www.agilemovement.it/venture/2020/milano/){:target="_blank"}  
 * **Growing Teams**
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846){:target="_blank"} :uk:
+  * [Video](https://vimeo.com/394385611){:target="_blank"} :it:
 
 ## 2019
 :it: [Italian Agile Days Modena](https://www.agileday.it/){:target="_blank"}  
