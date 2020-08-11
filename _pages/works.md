@@ -26,6 +26,15 @@ I really enjoyed writing it, I learnt a lot. So I decided to write it again :smi
 
 ![Git Essentials, 2nd Edition]({{ site.url }}{{ site.baseurl }}/assets/images/git-essentials-2nd-edition-small.png "Git Essentials 2nd Edition"){: .full}
 
+Il libro è stato tradotto in italiano da Apogeo:   
+
+[Git - Guida per imparare a gestire, distribuire e versionare codice](https://www.apogeonline.com/libri/git-ferdinando-santacroce/){:target="_blank"}.  
+
+![Git - Guida per imparare a gestire, distribuire e versionare codice]({{ site.url }}{{ site.baseurl }}/assets/images/cover-git-apogeo.jpg "Git - Guida per imparare a gestire, distribuire e versionare codice"){: .full}
+
+
+---
+
 Follow me on [Goodreads](https://www.goodreads.com/author/show/13649672.Ferdinando_Santacroce){:target="_blank"} to learn more about books I like and I write.
 
 ## Mokabyte
