@@ -12,6 +12,15 @@ Minimal Mistakes Theme
 I use the [Remote theme method](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#remote-theme-method).  
 To update the theme, see [upgrading guide](https://mmistakes.github.io/minimal-mistakes/docs/upgrading/#remote-theme).  
 
+In brief:  
+~~~ shell script
+git fetch origin master
+git rebase origin/master
+git fetch upstream master
+git rebase upstream/master
+git push origin master
+~~~
+
 Jekyll
 * [Jekyll Docs](https://jekyllrb.com/docs/home/)  
 * [Using Jekyll as a static site generator with GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)
