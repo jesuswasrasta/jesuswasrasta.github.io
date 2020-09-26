@@ -10,10 +10,16 @@ last_modified_at: 2020-02-01T23:12:35-04:00
 Here a brief list of my public appearances :blush:
 
 ## 2020
+:it: [TDD Milano Meetup](https://www.meetup.com/it-IT/TDD-Milano){:target="_blank"}  
+* [Mining Code Repositories](https://www.meetup.com/it-IT/TDD-Milano/events/273031114/){:target="_blank"}
+  * [Slides](https://docs.google.com/presentation/d/1EbqhJNjNU2hNCj1GluP7OG6In3wdLf2U74T4wrkhOxo/edit?usp=sharing){:target="_blank"}
+  * [Video](https://youtu.be/KdrO_SQe-ds){:target="_blank"} :movie_camera: :it:
+
+
 :it: [Agile Venture Milano](https://www.agilemovement.it/venture/2020/milano/){:target="_blank"}  
 * **Growing Teams**
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846){:target="_blank"} :uk:
-  * [Video](https://vimeo.com/394385611){:target="_blank"} :it:
+  * [Video](https://vimeo.com/394385611){:target="_blank"} :movie_camera: :it:
 
 ## 2019
 :it: [Italian Agile Days Modena](https://www.agileday.it/){:target="_blank"}  
@@ -37,7 +43,7 @@ Here a brief list of my public appearances :blush:
 :it: [Working Software Conf](https://www.agilemovement.it/workingsoftware/){:target="_blank"}  
 * I've been the chair of this great... GREAT event! :blush: 
   * [Intro ](https://vimeo.com/351825816){:target="_blank"}
-  * [Videos](https://vimeo.com/showcase/6189515){:target="_blank"}
+  * [Videos](https://vimeo.com/showcase/6189515){:target="_blank"} :movie_camera: :it:
   
 
 :it: [Radio24, intervista](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/){:target="_blank"}  
