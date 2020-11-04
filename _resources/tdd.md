@@ -5,16 +5,26 @@ permalink: /tdd/
 layout: single
 author_profile: true
 toc: true
+categories:
+  - resources
 last_modified_at: 2018-04-29T23:12:35-04:00
 ---
-
-This was a list about TDD, something where I append interesting things now an then, since 2008...  
-Today is a massive mess of links, but great value is assured :smile:.  
+I'm going to getting rid of my browser bookmarks, so this page is born 😀  
+This is a list about TDD, a place where I append interesting things I'm discovering about TDD since 2008...  
+Today is a massive, incomplete and unordered mess of links, but this leaves me more room for improvement 😁  
+Anyway, great value is assured :smile:.  
 
 ---
 ## Books
+[eXtreme Programming eXplained, 1st ed.](https://www.goodreads.com/book/show/1001606.eXtreme_Programming_eXplained_){:target="_blank"}.  
+The 1st edition of the book that started it all...  
 
+[eXtreme Programming eXplained, 2nd ed.](https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained){:target="_blank"}.  
+A revised edition with new stuff: it's actually a different book, not an update of the 1st edition.  
+I recommend to read both the editions, in chronological order of course.  
 
+[Test Driven Development: By Example](https://www.goodreads.com/book/show/387190.Test_Driven_Development){:target="_blank"}.  
+Learn how to do TDD directly from its inventor.  
 
 
 ## Articles
