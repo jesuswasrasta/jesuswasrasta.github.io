@@ -36,12 +36,26 @@ Here a collection of tips, FAQs and things I discovered while setting up this bl
 [Jekyll](https://jekyllrb.com) website has a very well-done docs section; I followed this guide, [Jekyll on Windows](https://jekyllrb.com/docs/windows/).  
 I went for [Installation via Bash on Windows 10](https://jekyllrb.com/docs/installation/windows/#installation-via-bash-on-windows-10).  
 
+## FAQs
+Thinks to know to add content  
+
 ### Running the blog locally
 Prerequisites: a valid installation of Jekyll.  
 1. Navigate to your blog folder  
 2. Run `bundle exec jekyll serve`; it will run your blog at [localhost:4000](http://localhost:4000)
 
 Using `bundle exec jekyll serve --incremental` will reload your `_config.yml` when it changes.  
+
+### Adding emoji to articles
+You need to use the :emoji: form.  
+Here a list: 
+
+[plugin-jemoji](https://github.com/jekyll/jemoji)
+[emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+
+
+## Problems and solutions 
+Problems solved along the way  
 
 ### Problem: bundle install fails because of nokogiri
 Installation done with `bundle install` encountered a problem with `nokogiri`:  
