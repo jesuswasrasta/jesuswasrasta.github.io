@@ -52,21 +52,21 @@ The continuation of the historical XP Yahoo Group, since the dawn of the movemen
 [Groups.io - eXtreme Programming](https://groups.io/g/extremeprogramming/){:target="_blank"}.  
 
 
-## Videos
-[Youtube - Extreme Programming 20 years later by Kent Beck](https://www.youtube.com/watch?v=cGuTmOUdFbo){:target="_blank"}  
+## <i class="fas fa-video"></i> Videos
+[<i class="fab fa-youtube"></i> Extreme Programming 20 years later by Kent Beck](https://www.youtube.com/watch?v=cGuTmOUdFbo){:target="_blank"}  
 Kent Beck telling stories about TDD and XP genesis. If you like tales and TDD, this is the best resource I found.  
 
-[Youtube Channel - James Shore](https://www.youtube.com/channel/UCMDg-RTfD384BAUw_Eq2hIg){:target="_blank"}.  
+[<i class="fab fa-youtube"></i> Channel - James Shore](https://www.youtube.com/channel/UCMDg-RTfD384BAUw_Eq2hIg){:target="_blank"}.  
 
-[Youtube - Ian Cooper - TDD, Where Did It All Go Wrong](https://www.youtube.com/watch?v=EZ05e7EMOLM){:target="_blank"}.  
+[<i class="fab fa-youtube"></i> Ian Cooper - TDD, Where Did It All Go Wrong](https://www.youtube.com/watch?v=EZ05e7EMOLM){:target="_blank"}.  
 
-[Youtube - J B Rainsberger - Integrated Tests Are A Scam](https://www.youtube.com/watch?v=VDfX44fZoMc){:target="_blank"}.  
+[<i class="fab fa-youtube"></i> J B Rainsberger - Integrated Tests Are A Scam](https://www.youtube.com/watch?v=VDfX44fZoMc){:target="_blank"}.  
 
-[Youtube - Robert C. Martin (@unclebob) - The Three Laws of TDD (Featuring Kotlin)](https://www.youtube.com/watch?v=qkblc5WRn-U){:target="_blank"}.  
+[<i class="fab fa-youtube"></i> Robert C. Martin (@unclebob) - The Three Laws of TDD (Featuring Kotlin)](https://www.youtube.com/watch?v=qkblc5WRn-U){:target="_blank"}.  
 
-[Youtube - Kent Beck - Test && Commit || Revert - Substring, TCR style](https://www.youtube.com/watch?v=ZrHBVTCbcE0){:target="_blank"}.  
+[<i class="fab fa-youtube"></i> Kent Beck - Test && Commit \|\| Revert - Substring, TCR style](https://www.youtube.com/watch?v=ZrHBVTCbcE0){:target="_blank"}.  
 
-[Youtube Playlist - Kent Beck - Test desiderata](https://www.youtube.com/playlist?list=PLlmVY7qtgT_lkbrk9iZNizp978mVzpBKl){:target="_blank"}.  
+[<i class="fab fa-youtube"></i> Playlist - Kent Beck - Test desiderata](https://www.youtube.com/playlist?list=PLlmVY7qtgT_lkbrk9iZNizp978mVzpBKl){:target="_blank"}.  
 
 
 ## Links
