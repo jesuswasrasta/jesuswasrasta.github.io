@@ -9,10 +9,10 @@ categories:
   - resources
 last_modified_at: 2018-04-29T23:12:35-04:00
 ---
-I'm going to getting rid of my browser bookmarks, so this page is born 😀  
+I'm going to getting rid of my browser bookmarks, so this page is born :smile:   
 This is a list about TDD, a place where I append interesting things I'm discovering about TDD since 2008...  
-Today is a massive, incomplete and unordered mess of links, but this leaves me more room for improvement 😁  
-Anyway, great value is assured :smile:.  
+Today is a massive, incomplete and unordered mess of links, but this leaves me more room for improvement :grin:  
+Anyway, great value is assured :smiley:.  
 
 ---
 ## Books
