@@ -263,17 +263,27 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+# see: https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# Collections
+# see: https://mmistakes.github.io/minimal-mistakes/docs/collections/
+# _resources collection
+collections:
+  resources:
+    output: true
+    permalink: /:collection/:path/
+
+
 
 
 # HTML Compression
@@ -311,3 +321,12 @@ defaults:
       comments: false
       share: true
       related: false
+
+  # _resources
+  - scope:
+      path: "_resources"
+      type: resources
+    values:
+      layout: single
+      author_profile: false
+      share: true

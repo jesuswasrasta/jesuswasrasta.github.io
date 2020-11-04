@@ -8,6 +8,8 @@ main:
     url: /works/
   - title: "🗣️ Talks"
     url: /talks/
+  - title: "📚 Resources"
+    url: /resources/
   - title: "🗄️ Archive"
     url: /archive/
   # - title: "Categories"
