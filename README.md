@@ -50,8 +50,18 @@ Using `bundle exec jekyll serve --incremental` will reload your `_config.yml` wh
 You need to use the :emoji: form.  
 Here a list: 
 
-[plugin-jemoji](https://github.com/jekyll/jemoji)
+[plugin-jemoji](https://github.com/jekyll/jemoji)  
 [emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+
+### Use Font Awesome icons
+Add an HTML tag with the code.  
+For example, adding the "video" icon:  
+~~~ html
+<i class="fas fa-video"></i>  
+~~~
+
+[Font Awesome](https://fontawesome.com/) 
+
 
 
 ## Problems and solutions 
