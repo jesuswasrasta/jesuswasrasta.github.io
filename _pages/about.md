@@ -11,7 +11,7 @@ last_modified_at: 2018-04-29T23:12:35-04:00
 **Ferdinando Santacroce** is a coach, developer, author, trainer and speaker who loves learning new things.
 
 As a **software developer**, Ferdinando worked for many years in the **Microsoft .NET** wonderland, 
-using **C#** to bride the gap between old style systems and new technologies. 
+using **C#** to bridge the gap between old style systems and new technologies. 
 During his career he allowed COBOL applications to talk with remote services, 
 databases and electronic devices like _cash handlers_, _document scanners_ and _electronic shelf labels_.  
 Then he tamed some **Java** and **JavaScript** beasts, working on legacy applications for a big Italian energy player.  
@@ -41,5 +41,3 @@ Mostly of what he learned comes from his fellows and colleagues, which incited h
 attend to inspiring conference like [XP Conf](https://www.agilealliance.org/xp2018){:target="_blank"} and 
 [Italian Agile Days](http://www.agileday.it/){:target="_blank"}, 
 other that helping his growth working on the same code.  
-
-All the energy he spend comes from his wife, Maria :woman:, and their kid, Giovanni :baby:.
