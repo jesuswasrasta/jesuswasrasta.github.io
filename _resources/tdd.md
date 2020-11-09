@@ -101,9 +101,10 @@ Resources about the _outside-in_ approach.
 
 
 ---
-## Skeptics, doubter and "enemies"
-[Martin Fowler - Is TDD dead?](https://martinfowler.com/articles/is-tdd-dead/){:target="_blank"}  
-Inside the article you can finds the links to the YouTube videos.  
+## Skeptics, doubters and "enemies"
+[Is TDD dead?](https://martinfowler.com/articles/is-tdd-dead/){:target="_blank"}  
+A series of conversations between Kent Beck, David Heinemeier Hansson, and Martin Fowler 
+on the topic of Test-Driven Development (TDD) and its impact upon software design.  
 
 [Youtube - Jim Coplien and Bob Martin Debate TDD](https://www.youtube.com/watch?v=KtHQGs3zFAM){:target="_blank"}  
 
