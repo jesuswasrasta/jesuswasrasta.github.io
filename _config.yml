@@ -114,7 +114,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ferdinandosantacroce/"
     - label: "Mokabyte"
-      icon: "fab fa-fw fa-newspaper"
+      icon: "fas fa-newspaper"
       url: "http://www.mokabyte.it/author/ferdinando-santacroce/"
     - label: "Reddit"
       icon: "fab fa-fw fa-reddit"
