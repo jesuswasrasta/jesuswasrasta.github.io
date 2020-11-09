@@ -25,6 +25,10 @@ codekit-config.json
 # macOS
 .DS_Store
 
+# Linux
+## KDE
+.directory
+
 # Jekyll generated files
 .jekyll-cache
 .jekyll-metadata
