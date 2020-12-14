@@ -10,11 +10,14 @@ last_modified_at: 2020-02-01T23:12:35-04:00
 Here a brief list of my public appearances :blush:
 
 ## 2020
+:it: [TomorrowDevs](https://www.youtube.com/channel/UCckCYs-msiC4Vs_nyg218Hw){:target="_blank"}
+* **Storie di developers - intervista con Simone Torrisi**
+  * [Video](https://www.youtube.com/watch?v=iU3bGoA2QJ4){:target="_blank"} :movie_camera: :it:
+
 :it: [TDD Milano Meetup](https://www.meetup.com/it-IT/TDD-Milano){:target="_blank"}  
 * [Mining Code Repositories](https://www.meetup.com/it-IT/TDD-Milano/events/273031114/){:target="_blank"}
   * [Slides](https://docs.google.com/presentation/d/1EbqhJNjNU2hNCj1GluP7OG6In3wdLf2U74T4wrkhOxo/edit?usp=sharing){:target="_blank"}
   * [Video](https://youtu.be/KdrO_SQe-ds){:target="_blank"} :movie_camera: :it:
-
 
 :it: [Agile Venture Milano](https://www.agilemovement.it/venture/2020/milano/){:target="_blank"}  
 * **Growing Teams**
@@ -44,7 +47,6 @@ Here a brief list of my public appearances :blush:
 * I've been the chair of this great... GREAT event! :blush: 
   * [Intro ](https://vimeo.com/351825816){:target="_blank"}
   * [Videos](https://vimeo.com/showcase/6189515){:target="_blank"} :movie_camera: :it:
-  
 
 :it: [Radio24, intervista](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/){:target="_blank"}  
  * [I lavori di domani - Agile Coach](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/agile-coach-175941-AC0jYqU){:target="_blank"} :it:
