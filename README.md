@@ -42,7 +42,8 @@ Thinks to know to add content
 ### Running the blog locally
 Prerequisites: a valid installation of Jekyll.  
 1. Navigate to your blog folder  
-2. Run `bundle exec jekyll serve`; it will run your blog at [localhost:4000](http://localhost:4000)
+2. Run `bundle install` to install needed gems
+3. Run `bundle exec jekyll serve`; it will run your blog at [localhost:4000](http://localhost:4000)
 
 Using `bundle exec jekyll serve --incremental` will reload your `_config.yml` when it changes.  
 
