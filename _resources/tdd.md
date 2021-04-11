@@ -76,7 +76,7 @@ A strange interview, it almost looks like a deposition... :smile:
 
 ## Links
 [eXtreme Programming historic website](http://www.extremeprogramming.org/){:target="_blank"}
-
+[TDD Anti-patterns](https://quii.gitbook.io/learn-go-with-tests/meta/anti-patterns){:target="_blank"}
 
 ### Outside-In, Mockist, London School
 Resources about the _outside-in_ approach.  
