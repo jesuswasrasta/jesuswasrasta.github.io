@@ -8,7 +8,9 @@ ref: elastic-pair-programming
 categories:
   - Posts
 tags:
-  - software development, extreme programming, pair programming
+  - software development
+  - extreme programming 
+  - pair programming
 ---
 
 Qualche tempo fa ho trascorso [una bella serata](https://blog.adrianbolboaca.ro/2018/03/remotepairprogramming-ep-009-adi-ferdinando-elastic-pair-programming/){:target="_blank"} insieme ad [Adrian Bolboacă](https://blog.adrianbolboaca.ro/){:target="_blank"}, provando per la prima volta in pubblico una tecnica di _pair programming_ osservata e sperimentata nelle aziende in cui ho lavorato.  
