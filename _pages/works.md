@@ -10,6 +10,10 @@ last_modified_at: 2018-04-29T23:12:35-04:00
 I like reading, and I like writing, too.  
 Here some of the latest things I worked on.  
 
+
+## Semaphore blog
+I wrote something about testing on [Semaphore](https://semaphoreci.com/) blog: [Automated Testing: The Cornerstone of CI/CD](https://semaphoreci.com/blog/automated-testing-cicd){:target="_blank"}.  
+
 ## Git Essentials
 Some time ago I wrote a book for [Packt Publishing](https://www.packtpub.com/){:target="_blank"} about _Git_.  
 
