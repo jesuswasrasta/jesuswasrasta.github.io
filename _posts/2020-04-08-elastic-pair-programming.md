@@ -49,7 +49,7 @@ La più classica è quella in cui alla tastiera ci sono due persone che si conos
 
 Non necessariamente si è esperti dello stesso dominio o delle stesse tecniche, anzi, spesso ho trovato interessante favorire il confronto tra punti di vista differenti.  
 
-L'idea è quella che, di fronte ad un problema ostico o peculiare, uno sviluppatore esperto chiami in causa un suo pari per **condividere ed eventualmente confutare confrontare la ipotesi di soluzione**, e giungere magari ad una soluzione migliore o inaspettata per entrambi. 
+L'idea è quella che, di fronte ad un problema ostico o peculiare, uno sviluppatore esperto chiami in causa un suo pari per **condividere ed eventualmente confutare l'ipotesi di soluzione**, e giungere magari ad una soluzione migliore o inaspettata per entrambi. 
 
 Ho usato questa tecnica spesso in modalità "_on-demand_", chiamando in causa colleghi che normalmente non fanno pair programming con me o in team in cui la pratica non era consuetudine.  
 
