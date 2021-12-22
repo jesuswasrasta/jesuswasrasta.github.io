@@ -5,9 +5,24 @@ permalink: /talks/
 layout: single
 author_profile: true
 toc: true
-last_modified_at: 2020-02-01T23:12:35-04:00
+last_modified_at: 2021-12-22T11:12:35-04:00
 ---
 Here a brief list of my public appearances :blush:
+
+## 2021
+:it: [Italian Agile Days](https://www.agileday.it/){:target="_blank"}
+* **Agile Testing Matrix**
+  * [Miro board](https://miro.com/app/board/o9J_lmC9ZLE=/){:target="_blank"}
+  * [Video](https://vimeo.com/648776317){:target="_blank"} :movie_camera: :it:
+
+:it: [DDDOpen](https://www.linkedin.com/company/ddd-open){:target="_blank"}
+* I'm one of the co-founder of DDDOpen community :blush:
+  * [Eventbrite](https://www.eventbrite.it/o/ddd-open-32073539095){:target="_blank"} :ticket:
+
+:it: [Working Software Conf](https://www.agilemovement.it/workingsoftware/){:target="_blank"}
+* **Unconference, remote edition :)**
+  * [GatherTown space](https://gather.town/app/NvjSrqLIEcqGFKCV/working-software){:target="_blank"}
+  * [Miro board](https://miro.com/app/board/o9J_lEi_PG4=/){:target="_blank"} :it:
 
 ## 2020
 :it: [TomorrowDevs](https://www.youtube.com/channel/UCckCYs-msiC4Vs_nyg218Hw){:target="_blank"}
