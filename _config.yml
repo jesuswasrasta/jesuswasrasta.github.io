@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.22.0"
+remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "default" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -113,12 +113,12 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ferdinandosantacroce/"
+    - label: "SemaphoreCI Blog"
+      icon: "fas fa-traffic-light"
+      url: "https://semaphoreci.com/author/ferdinando-santacroce"
     - label: "Mokabyte"
       icon: "fas fa-newspaper"
       url: "http://www.mokabyte.it/author/ferdinando-santacroce/"
-#    - label: "Reddit"
-#      icon: "fab fa-fw fa-reddit"
-#      url: "https://www.reddit.com/user/jesus_was_rasta"
     - label: "StackOverflow"
       icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/425051/ferdinando-santacroce"
@@ -131,12 +131,6 @@ author:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.com/fsantacroce"
-#    - label: "Facebook"
-#      icon: "fab fa-fw fa-facebook-square"
-#      url: "https://facebook.com/ferdinando.santacroce"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/jesuswasrasta"
 
 # Site Footer
 footer:
