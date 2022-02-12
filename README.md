@@ -28,11 +28,23 @@ Here a collection of tips, FAQs and things I discovered while setting up this bl
 [Jekyll](https://jekyllrb.com) website has a very well-done docs section; I followed this guide, [Jekyll on Windows](https://jekyllrb.com/docs/windows/).  
 I went for [Installation via Bash on Windows 10](https://jekyllrb.com/docs/installation/windows/#installation-via-bash-on-windows-10).  
 
+~~~bash
+sudo apt-get update -y && sudo apt-get upgrade -y
+
+sudo apt-add-repository ppa:brightbox/ruby-ng
+sudo apt-get update
+sudo apt-get install ruby2.5 ruby2.5-dev build-essential dh-autoreconf
+
+gem update
+
+gem install jekyll bundler
+~~~
+
 ## FAQs
 Thinks to know to add content  
 
 ### Running the blog locally
-Prerequisites: a valid installation of Jekyll.  
+Prerequisites: a valid installation of Jekyll: `sudo apt install jekyll`.  
 1. Navigate to your blog folder  
 2. Run `bundle install` to install needed gems
 3. Run `bundle exec jekyll serve`; it will run your blog at [localhost:4000](http://localhost:4000)
@@ -145,7 +157,7 @@ Then install the Ruby gem `sudo gem install rake`
 
 ### Problem: Jekyll serve fails
 Jekyll can serve your website locally, to let you develop and test the results.  
-You can start up a local webserver running the command `jekyll s` inside the folder of your repositry: 
+You can start up a local webserver running the command `jekyll s` inside the folder of your repository: 
 ~~~
 ~/jesuswasrasta.github.io$ jekyll s
 ~~~
