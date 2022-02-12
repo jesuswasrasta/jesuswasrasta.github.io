@@ -178,3 +178,5 @@ In my PC, this raised this error:
         from /usr/local/bin/jekyll:22:in `<main>'
 ~~~
 
+### How to embed video in markdown
+[How to embed video in markdown](https://stackoverflow.com/questions/14192709/is-it-possible-to-embed-youtube-vimeo-videos-in-markdown-using-a-c-sharp-markdow)  
