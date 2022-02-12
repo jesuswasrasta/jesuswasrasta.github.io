@@ -20,13 +20,21 @@ Anyway, great value is assured :smiley:.
 
 
 ## Articles
-[C2 Wiki on TDD](https://wiki.c2.com/?TestDrivenDevelopment){:target="_blank"}  
+[Dr. Alan Kay  on the Meaning of “Object-Oriented Programming”](https://userpage.fu-berlin.de/~ram/pub/pub_jf47ht81Ht/doc_kay_oop_en){:target="_blank"}  
+[Alan Kay On Messaging](https://wiki.c2.com/?AlanKayOnMessaging){:target="_blank"}  
+[Alan Kay Was Wrong About Him Being Wrong](https://www.yegor256.com/2017/12/12/alan-kay-was-wrong.html){:target="_blank"}  
+[91 Posts About Object-Oriented Programming (OOP)](https://www.yegor256.com/tag/oop.html){:target="_blank"}  
+[Why did Dijkstra say that “Object-oriented programming is an exceptionally bad idea which could only have originated in California.”?](https://qr.ae/pGjMN0){:target="_blank"}  
+[Objects Never? Well, Hardly Ever!](https://computinged.wordpress.com/2010/09/11/moti-asks-objects-never-well-hardly-ever/#comment-3766){:target="_blank"}  
+[](){:target="_blank"}  
 
 ---
 ## People to follow
 In no particular order:
+[Alan Kay](https://www.quora.com/profile/Alan-Kay-11){:target="_blank"}  
 [Grady Booch](https://twitter.com/Grady_Booch){:target="_blank"}  
 [Yegor Bugayenko](https://www.yegor256.com/){:target="_blank"}  
+
 
 Then maybe all the people on [TDD]({{ site.baseurl }}{% link _resources/tdd.md %}) page are worth a look :smile:.   
 
