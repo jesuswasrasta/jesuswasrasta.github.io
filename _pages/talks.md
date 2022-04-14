@@ -14,6 +14,8 @@ Here a brief list of my public appearances :blush:
 ### :it: [TDD Milano Meetup](https://www.meetup.com/it-IT/TDD-Milano/events/){:target="_blank"}
 An in presence workshop on refactoring; a little challenge, a lot of fun 😄
 [![Refactoring Showdown](../assets/images/workshop-refactoring-showdown.png)](https://www.meetup.com/it-IT/TDD-Milano/events/284995543/){:target="_blank"}
+[Miro board](https://miro.com/app/board/uXjVOJrieKg=/){:target="_blank"}  
+[Github repo with directions](https://github.com/jesuswasrasta/refactoring-showdown)  
 
 ### :it: [Agile Reloaded Meetup](https://www.meetup.com/it-IT/agile-reloaded-italia/){:target="_blank"}
 [Assessment tecnico di un team di sviluppo](https://www.meetup.com/it-IT/agile-reloaded-italia/events/284308349/){:target="_blank"}      
