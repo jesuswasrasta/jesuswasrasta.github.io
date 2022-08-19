@@ -12,7 +12,7 @@ Here some of the latest things I worked on.
 
 
 ## Semaphore blog
-I wrote about testing on [Semaphore](https://semaphoreci.com/) blog: [Here you can find  my articles](https://semaphoreci.com/author/ferdinando-santacroce){:target="_blank"}.  
+I write about testing on [Semaphore](https://semaphoreci.com/) blog: [Here you can find  my articles](https://semaphoreci.com/author/ferdinando-santacroce){:target="_blank"}.  
 
 ## Git Essentials
 Some time ago I wrote a book for [Packt Publishing](https://www.packtpub.com/){:target="_blank"} about _Git_.  
@@ -22,7 +22,9 @@ Some time ago I wrote a book for [Packt Publishing](https://www.packtpub.com/){:
 ![Git Essentials]({{ site.url }}{{ site.baseurl }}/assets/images/git-essentials-1st-edition-small.png "Git Essentials 1st Edition"){: .full}
 <!-- ![alt]({{ site.url }}{{ site.baseurl }}/assets/images/filename.jpg){: .full} -->
 
-The book has been included in [Git Survey 2016](https://git.wiki.kernel.org/index.php/GitSurvey2016){:target="_blank"}, gaining the 3rd place (light-years behind [Pro Git](https://git-scm.com/book/en/v2), of course :sweat_smile:).  
+The book has been included in [Git Survey 2016](https://git.wiki.kernel.org/index.php/GitSurvey2016){:target="_blank"}, gaining the [3rd place](https://survs.com/report/nz2odu1spl) (light-years behind [Pro Git](https://git-scm.com/book/en/v2), of course :sweat_smile:).  
+
+<hr>
 
 I really enjoyed writing it, I learnt a lot. So I decided to write it again :smiley:   
 
@@ -30,6 +32,10 @@ I really enjoyed writing it, I learnt a lot. So I decided to write it again :smi
 
 ![Git Essentials, 2nd Edition]({{ site.url }}{{ site.baseurl }}/assets/images/git-essentials-2nd-edition-small.png "Git Essentials 2nd Edition"){: .full}
 
+Even this time the book has been appreciated.  
+<a class="ba-award" href="https://bookauthority.org/books/best-git-books?t=10kfmh&s=award&book=1787120724" target="_blank" style="margin:20px; outline:0"><img src="https://award.bookauthority.org/best-git-books.png?b=1787120724&c=1&v=6&w=200" style="width:200px; height:183px; border:0" alt="BookAuthority Best Git Books of All Time"/></a>
+
+<hr>
 Il libro è stato tradotto in italiano da Apogeo:   
 
 [Git - Guida per imparare a gestire, distribuire e versionare codice](https://www.apogeonline.com/libri/git-ferdinando-santacroce/){:target="_blank"}.  
