@@ -82,8 +82,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/jesuswasrasta"
-    - "https://facebook.com/ferdinando.santacroce"
+    - "https://mastodon.social/@ferdinandosantacroce"
     - "https://www.linkedin.com/in/ferdinandosantacroce"
 
 # Analytics
@@ -91,7 +90,7 @@ analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-2145651-5"
-    anonymize_ip         : # true, false (default)
+    anonymize_ip         : true
 
 # Site Author
 author:
@@ -105,23 +104,12 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:ferdinando.santacroce@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/jesuswasrasta"
+    - label: "Mastodon"
+      icon: "fa-brands fa-mastodon"
+      url: "https://mastodon.social/@ferdinandosantacroce"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ferdinandosantacroce/"
-    - label: "SemaphoreCI Blog"
-      icon: "fas fa-traffic-light"
-      url: "https://semaphoreci.com/author/ferdinando-santacroce"
-    - label: "Mokabyte"
-      icon: "fas fa-newspaper"
-      url: "https://www.mokabyte.it/autore/ferdinando-santacroce/"
-    - label: "StackOverflow"
-      icon: "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/425051/ferdinando-santacroce"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jesuswasrasta"
@@ -131,19 +119,31 @@ author:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       url: "https://bitbucket.com/fsantacroce"
+    - label: "StackOverflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/425051/ferdinando-santacroce"
+    - label: "SemaphoreCI Blog"
+      icon: "fas fa-traffic-light"
+      url: "https://semaphoreci.com/author/ferdinando-santacroce"
+    - label: "Mokabyte"
+      icon: "fas fa-newspaper"
+      url: "https://www.mokabyte.it/autore/ferdinando-santacroce/"
+    - label: "Twitter (deprecated)"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jesuswasrasta"
+    - label: "Facebook (deprecated)"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/ferdinando.santacroce"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/jesuswasrasta"
+    - label: "Mastodon"
+      icon: "fa-brands fa-mastodon"
+      url: "https://mastodon.social/@ferdinandosantacroce"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ferdinandosantacroce/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/ferdinando.santacroce"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jesuswasrasta"
