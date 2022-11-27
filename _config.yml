@@ -105,7 +105,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:ferdinando.santacroce@gmail.com"
     - label: "Mastodon"
-      icon: "fa-brands fa-mastodon"
+      icon: "fab fa-fw fa-mastodon"
       url: "https://mastodon.social/@ferdinandosantacroce"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -139,7 +139,7 @@ author:
 footer:
   links:
     - label: "Mastodon"
-      icon: "fa-brands fa-mastodon"
+      icon: "fab fa-fw fa-mastodon"
       url: "https://mastodon.social/@ferdinandosantacroce"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
