@@ -1,0 +1,23 @@
+{
+    "subject": "acct:ferdinandosantacroce@mastodon.social",
+    "aliases": [
+        "https://mastodon.social/@ferdinandosantacroce",
+        "https://mastodon.social/users/ferdinandosantacroce"
+    ],
+    "links": [
+        {
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html",
+            "href": "https://mastodon.social/@ferdinandosantacroce"
+        },
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://mastodon.social/users/ferdinandosantacroce"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://mastodon.social/authorize_interaction?uri={uri}"
+        }
+    ]
+}
