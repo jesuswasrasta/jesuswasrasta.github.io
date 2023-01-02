@@ -15,6 +15,7 @@
 .bundle
 Gemfile.lock
 **/vendor/bundle
+vendor
 
 # Node.js and NPM
 node_modules
@@ -29,17 +30,12 @@ codekit-config.json
 ## KDE
 .directory
 
+# Windows
+desktop.ini
+
 # Jekyll generated files
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
 _asset_bundler_cache
 _site
-
-codekit-config.json
-example/_site
-Gemfile.lock
-node_modules
-npm-debug.log*
-desktop.ini
-vendor
