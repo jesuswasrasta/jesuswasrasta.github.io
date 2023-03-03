@@ -20,7 +20,7 @@ title                    : "FERDINANDO SANTACROCE"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ferdinando Santacroce"
-description              : "First solve the problem. Then write the code."
+description              : "Uncovering better ways of developing software and organizations."
 url                      : "https://jesuswasrasta.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "jesuswasrasta/jesuswasrasta.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -207,7 +207,6 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
 
 
 # Sass/SCSS
@@ -303,7 +302,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
       # sidebar:
@@ -319,7 +318,7 @@ defaults:
       read_time: true
       comments: false
       share: true
-      related: false
+      related: true
 
   # _resources
   - scope:
