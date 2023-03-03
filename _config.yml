@@ -232,6 +232,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-github-metadata
   - jemoji
   - jekyll/mastodon_webfinger
 
