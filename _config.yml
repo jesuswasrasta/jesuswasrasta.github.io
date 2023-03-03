@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Ferdinando Santacroce"
 description              : "Uncovering better ways of developing software and organizations."
 url                      : "https://jesuswasrasta.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jesuswasrasta/jesuswasrasta.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/teaser-fallback-500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/88x88.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -155,7 +155,7 @@ footer:
 include:
   - .htaccess
   - _pages
-  - [ "/.well-known" ]
+  - "/.well-known"
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
