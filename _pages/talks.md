@@ -10,7 +10,21 @@ last_modified_at: 2021-12-22T11:12:35-04:00
 Here a brief list of my public appearances :blush:
 
 
+## 2023
+### :it: [Italian Agile Days](https://www.agileday.it/){:target="_blank"}
+Talking about user stories, technical debt, domain driven design, models and reality... 💭
+[![Navigando nel mondo del software, tra modelli e realtà.](../assets/images/Modelli-Realta-IAD-2023.png)](https://vimeo.com/manage/videos/907009037){:target="_blank"}
+
+### :it: [Reloaded Podcast](https://open.spotify.com/show/0wryeBJ9AzUBPDX6mJN2yC?si=2e0f142286284226){:target="_blank"}
+In this episode, I tell something about the story of the story points, their use and, suddenly, their abuse... 😄
+[![Refactoring Showdown](../assets/images/agile-reloaded-podcast.jpg)](https://open.spotify.com/episode/3DkwNAHunXIPxAUxy0BNSA?si=d3a0cff101b6452b&nd=1){:target="_blank"}
+
+
 ## 2022
+### :it: [Italian Agile Days](https://www.agileday.it/){:target="_blank"}
+A nice story about coal miners and software development 😏
+[![Dal carbone al software: i sistemi socio-tecnici](../assets/images/Dal-carbone-al-software-i-sistemi socio-tecnici-IAD22.png)](https://vimeo.com/manage/videos/768881541){:target="_blank"}
+
 ### :it: [TDD Milano Meetup](https://www.meetup.com/it-IT/TDD-Milano/events/){:target="_blank"}
 An in presence workshop on refactoring; a little challenge, a lot of fun 😄
 [![Refactoring Showdown](../assets/images/workshop-refactoring-showdown.png)](https://www.meetup.com/it-IT/TDD-Milano/events/284995543/){:target="_blank"}
@@ -149,13 +163,13 @@ Objects Calisthenics Workshop
 ![Agile Venture Prato 2018 - Objects Calisthenics Workshop](../assets/images/agile-venture-prato-object-calisthenics-workshop.png){:target="_blank"}  
 _Agile Venture Prato 2018 - Objects Calisthenics Workshop_
 
-### :it: :uk: [Milan Kotlin Community Conf 2018](https://milan.kotlincommunityconf.com){:target="_blank"}  
+### :it: :uk: [Milan Kotlin Community Conf 2018](https://www.agilemovement.it/kotlincommunityconf/milan/){:target="_blank"}  
 * I've been thee chair of the 1st one-day conference about Kotlin here in Italy :smiley:  
 [![Milan Kotlin Community Conf 2018 - all the videos](../assets/images/milan-kotlin-community-conf-2018-videos.png)](https://vimeo.com/showcase/5286228 "Milan Kotlin Community Conf 2018 - all the videos"){:target="_blank"}  
 _Milan Kotlin Community Conf 2018 - all the videos_
 
 ### :it: [Torino Agile Conference 2018](https://www.agileday.it/mini/2018/torino/#ferdinandosantacroce){:target="_blank"}  
-* **Objcts Calisthenics Workshop**
+* **Objects Calisthenics Workshop**
   * [TicTacToe kata repo](https://github.com/jesuswasrasta/TicTacToe){:target="_blank"}
 
 ### :it: [TDD Milano Meetup](https://www.meetup.com/it-IT/TDD-Milano){:target="_blank"}  
@@ -165,7 +179,7 @@ _Milan Kotlin Community Conf 2018 - all the videos_
   * [Farkle kata repo](https://github.com/jesuswasrasta/KataFarkle){:target="_blank"}
 
 ## 2017
-In 2017 I focused on organizing events, rather than partecipating as a speaker :blush:  
+In 2017 I focused on organizing events, rather than participating as a speaker :blush:  
 
 ### :it: [Italian Agile Movement](http://www.agilemovement.it/)
 * I've been elected as advisor. I help organizing [Italian Agile Days](http://www.agileday.it/){:target="_blank"} and many other conferences all around Italy.
