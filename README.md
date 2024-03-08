@@ -1,6 +1,47 @@
 # Ferdinando Santacroce's blog
 This is my personal blog, available at [jesuswasrasta.com](https://jesuswasrasta.com).  
 
+## My development setup
+I use RubyMine, Docker and Docker Compose.
+
+### Docker adn Docker Compose
+I use a [docker-compose.yml](docker-compose.yml) file to spin up a container with Jekyll and all its dependencies.    
+I use a the official [Docker image](https://hub.docker.com/r/jekyll/jekyll/) for building and serve the website,
+in particular the [jekyll/jekyll](https://github.com/envygeeks/jekyll-docker) one.  
+More info here: [Jekyll in Docker with Docker Compose](https://benhoskins.dev/run-jekyll-in-docker-with-docker-compose/).    
+
+Then I configure RubyMine to use that container as the SDK.  
+
+### Setup RubyMine Ruby SDK
+You need to setup the Ruby SDK to use a _Docker Compose Ruby Interpreter_:    
+![Configure-Remote-Ruby-Interpreter.png](assets/images/Configure-Remote-Ruby-Interpreter.png)
+Just provide the [docker-compose.yml](docker-compose.yml) file path and you're done.  
+More info here: [Docker Compose as a remote interpreter](https://www.jetbrains.com/help/ruby/using-docker-compose-as-a-remote-interpreter.html#ruby_docker_integration).  
+
+### Startup
+Run
+```shell
+docker compose up
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Credits
 [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/)
 
