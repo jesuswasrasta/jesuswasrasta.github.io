@@ -85,12 +85,49 @@ gem install jekyll bundler
 Thinks to know to add content  
 
 ### Running the blog locally
-Prerequisites: a valid installation of Jekyll: `sudo apt install jekyll`.  
-1. Navigate to your blog folder  
+
+#### Option 1: Native Jekyll (requires Ruby/Jekyll installation)
+Prerequisites: a valid installation of Jekyll: `sudo apt install jekyll`.
+1. Navigate to your blog folder
 2. Run `bundle install` to install needed gems
 3. Run `bundle exec jekyll serve`; it will run your blog at [localhost:4000](http://localhost:4000)
 
-Using `bundle exec jekyll serve --incremental` will reload your `_config.yml` when it changes.  
+Using `bundle exec jekyll serve --incremental` will reload your `_config.yml` when it changes.
+
+#### Option 2: Docker (recommended - no local Ruby/Jekyll required)
+Prerequisites: Docker and Docker Compose installed on your system.
+
+**Quick start:**
+```bash
+# Build and start the container
+docker-compose up --build
+
+# Or run in detached mode
+docker-compose up -d --build
+```
+
+The blog will be available at [localhost:4000](http://localhost:4000)
+
+**Useful Docker commands:**
+```bash
+# Stop the container
+docker-compose down
+
+# Rebuild the image (after dependency changes)
+docker-compose build --no-cache
+
+# View logs
+docker-compose logs -f
+
+# Execute commands inside the container
+docker-compose exec jekyll bash
+
+# Clean up everything (including volumes)
+docker-compose down -v
+```
+
+**For development with file watching:**
+The Docker setup automatically includes `--incremental` and `--drafts` flags, so changes to your files will be automatically rebuilt and drafts will be visible.  
 
 ### Adding emoji to articles
 You need to use the :emoji: form.  
